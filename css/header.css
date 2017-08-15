@@ -1,0 +1,182 @@
+.topNavigation {
+    box-shadow: 5px 9px 15px rgba(0, 0, 0, 0.05);
+    background-color: #323232;
+}
+
+.topNavigation__content {
+    margin: 0 auto;
+    width: 1170px;
+    color: #fff;
+}
+
+.topNavigation__sidebar {
+    vertical-align: middle;
+    width: 200px;
+}
+
+/* Кнопка поиска */
+.topSearch {
+    vertical-align: middle;
+}
+
+.topSearch__button {
+    border-right: 1px solid rgba(255,255,255,.1);
+}
+
+.topSearch__link {
+    display: inline-block;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABi0lEQVQ4T52TsUvVURTHP58hi3BqqAZpCV0KKswhHFoqhBJKJCiJoEFcgoRoKGqoqHASJDD8ExQCnYJEMBeXlqZEiYaocDEaHBxOnMfPx30P6T28cLmXe8/93PM993ulaBFxHBgCcjwKCGxWfV79VsbvzjOo1iLiEnAL+ASsqOvV+gngApD7H9S5ZlANEhG9wBjwRt3Y67aIOAY8B2bVj2WMEXEEeAFMq1/2AhTZdgHPsqu/6nIiYhA4rb7+H6AAjQCd6rsSMpqFU9+3CekHLqqvSshjYKGVlCKTk8BtYFL9m+tZkwfAZ3W5zUzOANeACXVnF5IaD6szbUKuAGfViVLOOeAe8EjdbgWKiJfAorrUYLaIuF9LS6daPPEw0FMWtXauMtvByitbwFv1TwmLiENVtuPAVXWtwWxF1Q8Ad4A+IE33I80MpMFOAV+BPHyjMtvvBjlNt6a9zwPdQIK/A6tqjvlFBoCbwBP1Z11Oq2I270fE9eqZH6pb9V+8D1AW+TLwdN+QStpdoOMfAsKRh645IgkAAAAASUVORK5CYII=) no-repeat center;
+    width: 100px;
+    height: 30px;
+}
+
+.topSearch__link:hover {
+    opacity: .5;
+}
+
+/* Выбор языка */
+.topLang {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.topLang__button {
+    display: inline-block;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    opacity: .7;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAR0lEQVQYV2NkwAMYQXL///9fwMDAEI+mbiFMUoCBgeEAAwODPlTBRQYGBgewJFS3AVQBiOvAyMh4AS4JVZAAohkZGUHWMAAAeNMSsML6Gh0AAAAASUVORK5CYII=) no-repeat center right 15px;
+}
+
+.topLang__menu {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #323232;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: -1px;
+    z-index: 1;
+}
+
+.topLang__link {
+    padding: 13px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: #fff;
+}
+.topLang__link:hover {
+    background-color: #f24b10;
+    color: #323232;
+}
+
+
+.topLang:hover .topLang__menu {
+    display: block;
+}
+
+.topLang:hover .topLang__button {
+    opacity: 1;
+}
+
+/* Номер телефона */
+.topNavigation__phone {
+    text-align: right;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.topNavigation__phone span {
+    font-weight: bold;
+}
+
+/* Меню по центру */
+.topMenu {
+    text-align: center;
+}
+
+.topMenu__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+
+.topMenu__item {  display: inline;  }
+
+.topMenu__link {
+    display:inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.topMenu__link:hover {
+    color: #f24b10;
+    text-decoration: underline;
+}
+
+/* Блок с названием сайта и кнопками входа */
+.topTitle {
+    margin: 0 auto;
+    width: 1170px;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.topLogo {
+    vertical-align: middle;
+    color: #333232;
+    text-transform: uppercase;
+}
+
+.topLogo__subtitle {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.topLogo__title {
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.topSign {
+    vertical-align: middle;
+    text-align: right;
+}
+
+.topSign__menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topSign__button {
+    display: inline;
+}
+
+.topSign__link {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.topSign__link--registration {
+    border-radius: 20px;
+    background-color: #f24b10;
+    color: #fff;
+}
+
+.topSign__link--login {
+    color: #000;
+}
